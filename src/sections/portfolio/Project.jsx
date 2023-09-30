@@ -7,7 +7,9 @@ const Project = ({ project }) => {
         <img src={project.image} alt="Portfolio Project Image" />
       </div>
       <h4>{project.title}</h4>
-      <p>{project.desc}</p>
+      <div className="portfolio__project__p">
+        <p>{project.desc}</p>
+      </div>
       <div className="portfolio__project-cta">
         <a
           href={project.demo}

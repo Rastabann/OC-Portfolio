@@ -24,10 +24,16 @@
 
 .card.portfolio__project {
   animation: animateProject 800ms ease-in forwards;
-  height: auto; /* Make sure height is auto or not set yet */
-  min-height: 500px; /* Replace XYZ with an appropriate minimum height */
+  height: auto;
+  min-height: 500px;
 }
 
+.portfolio__project__p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+  overflow-y: auto;
+}
 @keyframes animateProject {
   from {
     opacity: 0;
